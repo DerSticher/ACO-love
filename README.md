@@ -12,6 +12,10 @@ A simple implementation of the Ant Colony Optimization Algorithm in Lua using [l
 
 
 # Interactivity
+1: Restart map with normal ants
+
+2: Restart map with improved ants
+
 Space: Pause/Unpause
 
 Return: Switch between ant view and pheromone view
