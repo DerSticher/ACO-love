@@ -68,7 +68,9 @@ function Ant:getPossibleCells()
     if #cells == 0 then
         local x = path[#path-1][1]
         local y = path[#path-1][2]
-        return {{x, y, self.board[x][y] + 30}}
+        print_r(path)
+        print(x, y)
+        return {{x, y, self.board:getPheromones(x, y) + 30}}
     end
 
     return cells
